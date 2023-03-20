@@ -1,0 +1,36 @@
+#prompt{
+  border: solid gray 1px;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  padding-left: 15px;
+  max-width: 600px;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+#answers{
+  padding-top: 30px;
+  padding-left: 5px;
+}
+
+#prompt:hover{
+  border: solid black 1px;
+  transition: 0.3s;
+}
+
+#prompt:focus{
+  border: solid black 1px;
+  background-color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+#registration_form{
+  text-align: left;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 40%;
+  height: 20%;
+}
